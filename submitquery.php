@@ -99,8 +99,8 @@ include ("menu.php");
 	$cust_mail->Host = 'smtp.gmail.com';
 	$cust_mail->Port = 587;
 	$cust_mail->SMTPAuth = true;
-	$cust_mail->Username = 'risktesting.demo@gmail.com';
-	$cust_mail->Password = 'rahul1011!';
+	$cust_mail->Username = 'demo@gmail.com';
+	$cust_mail->Password = 'password';
 	$cust_mail->SMTPSecure = 'tls';
 
 	$cust_mail->From = 'risktesting.demo@gmail.com';
