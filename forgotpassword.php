@@ -36,8 +36,8 @@ if(isset($_POST["forgot"]))
 	$pass_mail->Host = 'smtp.gmail.com';
 	$pass_mail->Port = 587;
 	$pass_mail->SMTPAuth = true;
-	$pass_mail->Username = 'risktesting.demo@gmail.com';
-	$pass_mail->Password = 'rahul1011!';
+	$pass_mail->Username = 'demo@gmail.com';
+	$pass_mail->Password = 'password';
 	$pass_mail->SMTPSecure = 'tls';
 
 	$pass_mail->From = 'risktesting.demo@gmail.com';
